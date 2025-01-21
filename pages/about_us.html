@@ -1,0 +1,104 @@
+<!-- About Us Page - Created by Juan Jacobo Florez Monroy/8857381 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <link rel="stylesheet" href="../css/about_us.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="../index.html">Movie Quiz</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="faq.html">Faq</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="contact_us.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>  
+        <div id="grid-container">
+            <!-- bxSlider -->
+            <div id="div_left_side">                
+                <div class="bxslider">
+                    <!-- The divs with the images for the bxslider are create in bx_slider_images.js file -->
+                              
+                </div> 
+            </div>
+            <div id="div_right_side">
+                <h2>Come and learn a little about us!</h2>
+                <div>
+                    <p class="p_about_us">
+                        At Movie Quiz, we are excited to share our love for movies. Our team is constantly 
+                        looking for new and better ideas to transform this website into you ideal place.
+                    </p>
+                    <p class="p_about_us">
+                        Here you can find a section to take different quizzes, which we will improve by adding information about all kinds of movies so that people 
+                        have several options to choose from. In the future, we hope to create user accounts so that people can compete against others and fight to 
+                        be the most knowledgeable person about movies, regardless of genre.
+                    </p>  
+                </div>
+                              
+            </div>            
+        </div>                             
+        <div id="div_contact_us" onclick="window.location.href='contact_us.html';">
+            <h3>If you want to contact us, you can click on the button</h3>
+            <button class="button_about_us">Send us a message</button>
+        </div>
+        
+    </main>
+    <!-- footer--->    
+    <section  class="fotter">        
+        <div class="container">                
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="flogo">
+                        <h3>Movie Quiz</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fotter-text">
+                        <ul  class="om">
+                            <li class="head"><a href="../index.html">Home</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="about_us.html">About</a></li>
+                            <li><a href="contact_us.html">Contact</a></li>                                    
+                        </ul>                                                               
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="msg">
+                        <div class="text">
+                            <h2>Movie Quiz</h2>
+                            <p>  
+                            In this movie Quiz website there are variety of option for user so that they can play quiz game and multiple player, session is stored by upto 5 players in a table.  
+                            </p>
+                            <button class="aboutbtn">About Movie</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Links to the libraries needed -->
+    <script src="http://code.jquery.com/jquery-3.6.4.min.js"></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="../js/jquery.bxslider.min.js"></script>    
+
+    <!-- Link to my own js file -->
+    <script src="../js/bx_slider_images.js"></script>
+    <script src="../js/about_us.js"></script>
+</body>
+</html>

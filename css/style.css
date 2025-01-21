@@ -1,0 +1,365 @@
+@font-face {
+	font-family: "Montserrat-Bold";
+	src: url("../font/");
+}
+
+@font-face {
+	font-family: "Montserrat-light";
+	src: url("../font/Montserrat-light.otf");
+}
+@font-face {
+	font-family: "HaloHandletter";
+	src: url("../font/HaloHandletter.otf");
+}
+body {
+	padding: 0px;
+	margin: 0px;
+}
+a,
+a:hover {
+	text-decoration: none;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	width: 100%;
+	max-width: 100%;
+}
+
+/* header  */
+
+.navbar-brand {
+	font-size: 3em;
+	font-family: "HaloHandletter";
+	color: white;
+	font-weight: 700;
+}
+
+.navbar-inverse {
+	padding: 14px;
+}
+
+.navbar-right {
+	padding-right: 100px;
+}
+.navbar-right li {
+	padding-left: 20px;
+}
+
+.main-slider .owl-nav {
+	position: absolute;
+
+	z-index: 1200;
+	top: 50%;
+	width: 100%;
+	font-size: 10px;
+}
+
+.main-slider .owl-nav .owl-next,
+.owl-prev {
+	background: black;
+	color: white;
+	padding: 8px 8px;
+	width: 30px;
+}
+.main-slider .owl-nav .owl-next {
+	margin-left: auto;
+	margin-top: -20px;
+}
+
+.slider {
+	width: 100%;
+	margin: -20px 0px 0px 0px;
+}
+.main-slider .slider-text h2 {
+	font-size: 12em;
+	font-family: "HaloHandletter";
+
+	color: #f26d6f;
+}
+.main-slider .slider-text button {
+	margin-top: 20px;
+}
+.main-slider .slider-text p {
+	color: #f26d6f;
+	margin-left: 4em;
+	margin-top: -3em;
+}
+.slider .main-slider {
+	height: 550px;
+	width: 100%;
+	position: relative;
+	z-index: 3;
+	overflow: hidden;
+}
+.slider .main-slider img {
+	height: 550px;
+	width: 100%;
+	object-fit: cover;
+}
+.slider-text button a {
+	color: white;
+}
+.aboutbtn {
+	border: none;
+	padding: 8px 25px;
+	background: #4d9fae;
+	color: white;
+}
+.aboutbtn:hover {
+	border: 1px solid #97ae67;
+	padding: 8px 25px;
+	background: none;
+	color: gray;
+	transition: 0.45s all ease-in-out;
+}
+
+.main-slider .upper {
+	position: absolute;
+	padding: 1em 0;
+	top: 100px;
+	z-index: 4;
+	left: 10%;
+}
+
+/* movie details  */
+
+.movie-details {
+	margin: 80px 0px;
+}
+.product-img {
+	margin: 0px 0px 30px 0px;
+}
+
+.movie-details .product-img img {
+	border-radius: 40px;
+}
+
+/* contact Page details  */
+.upper-main {
+	margin: -20px 0px 0px 0px;
+	width: 100%;
+	height: 200px;
+}
+.upper-main img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.map-text a {
+	text-decoration: none;
+	color: black;
+}
+
+.map-text {
+	background: #e7e8e9;
+	text-align: center;
+	padding: 7px 0;
+}
+.contact-inner {
+	padding: 6em 0;
+}
+
+.contact-inner h2 {
+	font-size: 6em;
+	font-family: "HaloHandletter";
+}
+.contact-inner h6 {
+	font-size: 1em;
+	color: #f26d6f;
+}
+
+.map-text h6 {
+	color: black;
+	font-size: 14px;
+}
+
+.form input {
+	margin-bottom: 20px;
+}
+.form textarea {
+	margin-bottom: 20px;
+}
+
+.map-heading {
+	background: #f06674;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+}
+
+/* footer  */
+.flogo h3 {
+	font-size: 6em;
+	font-family: "HaloHandletter";
+	color: #f26d6f;
+}
+.fotter .msg {
+	background: #6cb0bf;
+	padding: 1em 2em;
+	text-align: center;
+}
+p {
+	margin: 0 15px 10px;
+}
+.msg h2 {
+	font-family: "HaloHandletter";
+	font-size: 45px;
+	color: #e5d95a;
+}
+.msg p {
+	color: white;
+}
+
+.footer-text ul {
+	width: 200px;
+	text-align: center;
+	margin: 0px auto;
+}
+.fotter-text li a {
+	text-decoration: none;
+	padding: 0px 0px 0px 140px;
+	color: black;
+	font-size: 16px;
+	line-height: 2;
+}
+.fotter-text li {
+	list-style: none;
+}
+
+/* Customize these styles based on your design preferences */
+.accordion {
+	margin: 0 5%;
+	max-width: 100%; /* Adjust the width as needed */
+}
+
+.accordion-item {
+	margin-bottom: 15px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+	transition: box-shadow 0.3s ease-in-out;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.accordion-title {
+	background-color: #f5f5f5;
+	cursor: pointer;
+	padding: 15px;
+	font-size: 18px;
+	color: #333;
+	text-align: left; /* Align content to the left */
+	transition: background-color 0.3s ease-in-out;
+}
+
+.accordion-details {
+	display: none;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #555;
+	text-align: left; /* Align content to the left */
+}
+
+.accordion-item.active .accordion-title {
+	background-color: #ddd;
+}
+
+.accordion-item.active .accordion-details {
+	display: block;
+}
+
+.accordion-details ul {
+	list-style-type: disc; /* Bullet points */
+	margin-left: 20px;
+	padding-left: 0;
+}
+.banner-image {
+	width: 100%; /* Adjust the width as needed */
+	height: auto;
+	max-height: 200px; /* Adjust the height as needed */
+	display: block;
+	margin: 0 auto;
+}
+
+/* Quiz Page style*/
+
+main {
+	padding: 0px 0px 20px 0px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+th,
+td {
+	padding: 8px;
+	border-bottom: 1px solid #ddd;
+}
+
+th {
+	background-color: #6cb0bf;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Montserrat-light";
+
+	color: #0a0a0a;
+}
+
+#quizContainer,
+#ContainerOfscore {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+#quizContainer {
+	display: block;
+	border: 2px solid black;
+	border-radius: 19px;
+	padding: 17px;
+	margin: 40px 0px 25px 0px;
+}
+
+.navbar,
+h1 {
+	margin: 0%;
+}
+
+#highestScore h2 {
+	text-align: center;
+	font-size: 6em;
+	margin: 0px 0px 15px 0px;
+	font-family: "Montserrat-light";
+	color: #f26d6f;
+}
+
+.bg {
+	background-image: url("../images/quizbg.jpeg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	background-size: 100%;
+	padding: 200px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#scoreTable {
+	margin: 0px 0px 200px 0px;
+}
+
+button {
+	padding: 10px 20px 10px 20px;
+	font-size: 16px;
+	background-color: #007bff;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	border: none;
+	margin: 50px 0px 0px 40px;
+}

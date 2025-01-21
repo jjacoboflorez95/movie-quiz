@@ -1,0 +1,91 @@
+<!-- Dharmikkumar Khambhadiya - 8884486 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="../index.html">Movie Quiz</a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="../index.html">Home</a></li>
+                    <li><a href="quiz.html">Quiz</a></li>
+                    <li><a href="faq.html">Faq</a></li>
+                    <li><a href="about_us.html">About</a></li>
+                    <li><a href="contact_us.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1 class="bg"></h1>
+        <button id="start">Start Quiz</button>
+        <div id="quizContainer" style="display: none;" >
+            <h2>Question:</h2>
+            <p id="question"></p>
+            <button id="nextButton">Next</button>
+        </div>
+        <div id="ContainerOfscore" style="display: none;">
+            <h2>Your Score: <span id="currentScore">0</span></h2>
+            <button id="submitScore">Submit Score</button>
+        </div>
+        <div id="highestScore">
+            <h2>Top 5 High Scores</h2>
+            <table id="scoreTable">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Name</th>
+                        <th>Score</th>
+                    </tr>
+                </thead>
+                <tbody id="Listofscore">
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <!-- footer--->    
+    <section  class="fotter">        
+        <div class="container">                
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="flogo">
+                        <h3>Movie Quiz</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="fotter-text">
+                        <ul  class="om">
+                            <li class="head"><a href="../index.html">Home</a></li>
+                            <li><a href="quiz.html">Quiz</a></li>
+                            <li><a href="faq.html">Faq</a></li>
+                            <li><a href="about_us.html">About</a></li>
+                            <li><a href="contact_us.html">Contact</a></li>                                    
+                        </ul>                                                               
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="msg">
+                        <div class="text">
+                            <h2>Movie Quiz</h2>
+                            <p>  
+                            In this movie Quiz website there are variety of option for user so that they can play quiz game and multiple player, session is stored by upto 5 players in a table.  
+                            </p>
+                            <button class="aboutbtn">About Movie</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/quiz.js"></script>
+</body>
+</html>
