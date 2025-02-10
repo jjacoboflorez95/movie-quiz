@@ -68,6 +68,12 @@ I was responsible for implementing the **About Us** section, including:
 - **Ensuring a responsive and visually appealing layout**.
 - **Integrating an image slider using bxSlider**.
 
+## 🖼️ Screenshots
+
+| Home | About Us | Contact Us |
+|------------|---------|------------|
+| ![Home](images/github/home.png) | ![About Us](images/github/about.png) | ![Contact Us](images/github/contact.png) |
+
 ## 📜 License
 
 This project was developed for educational purposes as part of a **college final project**.
