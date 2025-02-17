@@ -6,6 +6,13 @@
 
 This project was developed as a **college final group project**, with contributions from multiple team members. My role in the project was focused on developing the **About Us** section, including both its **HTML and JavaScript** components.
 
+## 🛠 Technologies Used
+
+- **HTML5**: Structure and content of the web pages.
+- **CSS3 & Bootstrap**: Styling and responsiveness.
+- **JavaScript (ES6+)**: Interactive features.
+- **jQuery & Plugins**: bxSlider and Owl Carousel for dynamic UI elements.
+
 ## 🚀 Features
 
 - 🏆 **Quiz System**: Users can take a movie-themed quiz and track their scores.
@@ -34,13 +41,6 @@ This project was developed as a **college final group project**, with contributi
  ├── 📁 css/                # Stylesheets
  ├── 📁 images/             # Image assets
 ```
-
-## 🛠 Technologies Used
-
-- **HTML5**: Structure and content of the web pages.
-- **CSS3 & Bootstrap**: Styling and responsiveness.
-- **JavaScript (ES6+)**: Interactive features.
-- **jQuery & Plugins**: bxSlider and Owl Carousel for dynamic UI elements.
 
 ## 📌 Prerequisites
 
@@ -80,4 +80,8 @@ This project was developed for educational purposes as part of a **college final
 
 ---
 
-💼 **Author:** Juan Jacobo Florez Monroy 🚀 Portfolio: [Portfolio Website or GitHub]
+## 💼 Author
+
+👤 **Juan Jacobo Florez Monroy**  
+🌐 **Portfolio**: [jjacobo95.com](https://jjacobo95.com)  
+🐙 **GitHub**: [github.com/jjacoboflorez95](https://github.com/jjacoboflorez95)
